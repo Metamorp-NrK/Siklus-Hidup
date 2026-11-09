@@ -53,7 +53,7 @@ nav a:hover {
 
 /* Cover Depan */
 .cover-section {
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,54 +63,47 @@ nav a:hover {
 }
 
 .cover-container {
-  max-width: 750px;
+  max-width: 800px;
+  width: 100%;
 }
 
 .main-title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 800;
   color: #1a365d;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   letter-spacing: -0.5px;
 }
 
-.cover-illustration {
+/* Bingkai Poster Cover */
+.cover-poster-wrapper {
   background: #ffffff;
-  padding: 2.5rem 1.5rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(43, 108, 176, 0.1);
-  margin-bottom: 2.5rem;
+  padding: 1rem;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(43, 108, 176, 0.15);
+  margin: 0 auto 2rem auto;
+  max-width: 650px;
+  border: 1px solid #e2e8f0;
 }
 
-.cycle-ring {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.cycle-item {
-  background: #edf2f7;
-  padding: 0.8rem 1.2rem;
+.cover-poster-img {
+  width: 100%;
+  height: auto;
   border-radius: 12px;
-  font-weight: 700;
-  color: #2d3748;
+  display: block;
 }
 
-.cycle-arrow {
-  color: #319795;
-  font-size: 1.4rem;
-  font-weight: bold;
+.cover-footer {
+  margin-top: 1rem;
 }
 
 .grade-badge {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: #2c5282;
   background-color: #bee3f8;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.8rem;
   border-radius: 30px;
 }
 
