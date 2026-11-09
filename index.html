@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pembelajaran Siklus Hidup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Siklus Hidup Makhluk Hidup</div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#materi">Materi</a></li>
+        <li><a href="#studi-kasus">Studi Kasus</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <h1>Eksplorasi Siklus Hidup Makhluk Hidup</h1>
+    <p>Pelajari metamorfosis, daur hidup hewan, dan analisis dampaknya terhadap lingkungan sekitar.</p>
+    <a href="#studi-kasus" class="btn">Buka Studi Kasus</a>
+  </section>
+
+  <section id="materi" class="content-section">
+    <h2>Daur Hidup & Metamorfosis</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Metamorfosis Sempurna</h3>
+        <p>Mengalami fase pupa atau kepompong (contoh: kupu-kupu, nyamuk, lalat tentara hitam/BSF).</p>
+      </div>
+      <div class="card">
+        <h3>Metamorfosis Tidak Sempurna</h3>
+        <p>Bentuk muda (nimfa) serupa dengan bentuk dewasa tanpa fase kepompong (contoh: belalang, kecoak).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="studi-kasus" class="content-section bg-alt">
+    <h2>Studi Kasus & Diskusi</h2>
+    <p class="section-desc">Pilih kasus untuk melihat skenario masalah dan pertanyaan analisis:</p>
+    
+    <div class="case-grid">
+      <article class="case-card">
+        <span class="badge">Kasus Lingkungan</span>
+        <h3>Penumpukan Sampah Organik & Maggot BSF</h3>
+        <p>Bagaimana siklus hidup larva Black Soldier Fly dimanfaatkan untuk mereduksi sampah dapur dan menghasilkan pupuk kasgot?</p>
+        <button class="btn-detail" onclick="openModal('kasus1')">Buka Kasus</button>
+      </article>
+
+      <article class="case-card">
+        <span class="badge">Kasus Ekosistem</span>
+        <h3>Penurunan Populasi Kupu-Kupu di Taman</h3>
+        <p>Penggunaan pestisida berlebih merusak siklus hidup ulat dan pupa. Apa dampak jangka panjangnya pada penyerbukan bunga?</p>
+        <button class="btn-detail" onclick="openModal('kasus2')">Buka Kasus</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Modal Pop-up -->
+  <div id="caseModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3 id="modalTitle">Judul Kasus</h3>
+      <p id="modalBody">Detail skenario.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
