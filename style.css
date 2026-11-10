@@ -384,7 +384,7 @@ nav a:hover {
 .tinytap-wrapper {
   position: relative;
   width: 100%;
-  max-width: 950px;
+  max-width: 640px;
   margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
@@ -400,7 +400,7 @@ nav a:hover {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .tinytap-frame {
     height: 480px;
   }
